@@ -3,7 +3,7 @@ Need mysql-connector-java
 ********************************
 ********************************
 
-Need data base name shoeshop
+Need database name shoeshop
 
 ********************************
 ********************************
@@ -17,7 +17,7 @@ CREATE TABLE `shoeshop`.`product` ( `product_id` INT NOT NULL AUTO_INCREMENT ,
 ********************************
 ********************************
 
-Need table name product
+Need table name customer
 
 CREATE TABLE `shoeshop`.`customer` ( `id` INT NULL , `name` VARCHAR(50) NOT NULL , `surname` VARCHAR(50) NOT NULL , 
 `phone` VARCHAR(10) NOT NULL ) ENGINE = InnoDB;
